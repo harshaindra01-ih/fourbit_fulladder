@@ -22,8 +22,8 @@ initial begin
     $dumpvars(0, adder_tb);
 
     // Test case 1
-    a   = 4'b0011;
-    b   = 4'b0001;
+    a   = 4'b0011;    // 3
+    b   = 4'b0001;   // 1
     cin = 1'b0;
     #10;
 
